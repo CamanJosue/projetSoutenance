@@ -412,6 +412,7 @@ footer p {
 
 .footer_ul li a {
     color: #CCC;
+	text-decoration: none;
 }
 
 .footer_ul li a:hover {
