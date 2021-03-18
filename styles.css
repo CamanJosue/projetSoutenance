@@ -470,3 +470,14 @@ footer p {
 }
 
 /*-------------------------- FIN FOOTER------------------------------------*/
+
+
+/*      FORMULAIRE JAVASCRIPT                */
+
+#text{
+	display: block;
+	color: #000;
+	font-weight: 300;
+	font-style: italic;
+	padding: 5px;
+}
