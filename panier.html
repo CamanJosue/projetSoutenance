@@ -1,27 +1,28 @@
 <!doctype html>
-<html>
-   <head>
-	<title>Panier d'achat</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	
-	<link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="script.js">
+<html lang="fr">
+	<head>
+		<title>Panier d'achat</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+		<link rel="stylesheet" href="styles.css"/>
+		<link
+		rel="stylesheet" href="script.js">
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous"/>
 
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</head>
-<body>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
 
-	<div
+		<div
 			class="container-fluid p-0">
 
-			
+
 			<!-- Le HEADER -->
 			<div class="row">
 				<div class="col">
@@ -54,286 +55,322 @@
 				</div>
 			</div>
 			<!-- Fin du HEADER -->
-			
-			
-	<main class="page">
-	 	<section class="shopping-cart dark">
-	 		<div class="container">
-		        <div class="block-heading">
-		          <h2>Récapitulatif de mon panier</h2>
-		          <p>Le prix et la disponibilité des articles sont sujets à changement. Le panier est temporaire, le prix des articles peuvent évoluer avec le temps.</p><br>
-		          <p>Vous avez un chèque-cadeau ou un bon de réduction ? Nous vous demanderons de saisir votre code au moment de payer.</p>
-		        </div>
-		        
-		        	<!-- Le MENU sticky -->
-		<nav class="navbar sticky-top navbar-light bg-light">
+
+		</div>
+
+
+		<section class="shopping-cart dark">
 			<div class="container-fluid">
-			  <a class="navbar-brand" href="#"></a>
-			  <a class="navbar-brand" href="produits.html"><button type="button" class="btn btn-link">Cliquez ici pour revenir à la boutique</button></a>
-			  <a class="navbar-brand" href="#"></a>
+				<div class="block-heading">
+					<h2>Récapitulatif de mon panier</h2>
+					<p>Le prix et la disponibilité des articles sont sujets à changement.<br>Le panier est temporaire, le prix des articles peuvent évoluer avec le temps.</p><br>
+					<p>Un chèque-cadeau ou un bon de réduction ?
+						<br>
+						Nous vous demanderons de saisir votre code au moment de payer.</p>
+				</div>
+
+				<!-- Le MENU sticky -->
+				<nav class="navbar sticky-top navbar-light bg-light ">
+					<div class="container-fluid justify-content-center">
+
+						<a class="navbar-brand text-secondary" href="produits.html">Cliquez ici pour revenir à la boutique</a>
+
+					</div>
+				</nav>
+				<!-- Fin du MENU sticky -->
+
+
+				<div class="content">
+					<div class="row">
+						<div class="col-md-12 col-lg-8">
+							<div class="items">
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" alt="" src="images/panier_foot.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Équipement football équipe de France
+															</a>
+															<div class="product-info">
+																<div>Taille:
+																	<span class="value">Junior 9 à 11 ans</span>
+																</div>
+																<div>Couleur:
+																	<span class="value">Blanc (extérieur)</span>
+																</div>
+																<div>Expédié sous:
+																	<span class="value">24/48H</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantité:</label>
+														<input id="quantity" type="number" value="1" class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>150€</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" alt="" src="images/panier_boxe.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Gants de boxe HAYABUSA S4</a>
+															<div class="product-info">
+																<div>Taille:
+																	<span class="value">12 OZ</span>
+																</div>
+																<div>Couleur:
+																	<span class="value">Rouge et noir</span>
+																</div>
+																<div>Expédié sous:
+																	<span class="value">24/48H</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity1">Quantité:</label>
+														<input id="quantity1" type="number" value="1" class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>55€</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image" alt="" src="images/panier_basket.jpg">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Ballon de basket GM7X</a>
+															<div class="product-info">
+																<div>Taille:
+																	<span class="value">7</span>
+																</div>
+																<div>Couleur:
+																	<span class="value">Orange</span>
+																</div>
+																<div>Expédié sous:
+																	<span class="value">24/48H</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity2">Quantity:</label>
+														<input id="quantity2" type="number" value="1" class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>40€</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<div class="summary">
+								<h3>Résumé</h3>
+								<div class="summary-item">
+									<span class="text">Sous-total</span>
+									<span class="price">245€</span>
+								</div>
+								<div class="summary-item">
+									<span class="text">Réduction</span>
+									<span class="price">10€</span>
+								</div>
+								<div class="summary-item">
+									<span class="text">Expédition</span>
+									<span class="price">Offert</span>
+								</div>
+								<div class="summary-item">
+									<span class="text">Total</span>
+									<span class="price">235€</span>
+								</div>
+								<button type="button" class="btn btn-primary btn-lg btn-block">Finaliser ma commande</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-		  </nav>
-		  	<!-- Fin du MENU sticky -->
-            
-            
-		        <div class="content">
-	 				<div class="row">
-	 					<div class="col-md-12 col-lg-8">
-	 						<div class="items">
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="images/panier_foot.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-								 							<a href="#">Équipement football équipe de France </a>
-								 							<div class="product-info">
-									 							<div>Taille: <span class="value">Junior 9 à 11 ans</span></div>
-									 							<div>Couleur: <span class="value">Blanc (extérieur)</span></div>
-									 							<div>Expédié sous: <span class="value">24/48H</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="Quantity">Quantité:</label>
-							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>150€</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="images/panier_boxe.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-								 							<a href="#">Gants de boxe HAYABUSA S4</a>
-								 							<div class="product-info">
-									 							<div>Taille: <span class="value">12 OZ</span></div>
-									 							<div>Couleur: <span class="value">Rouge et noir</span></div>
-									 							<div>Expédié sous: <span class="value">24/48H</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="quantity">Quantité:</label>
-							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>55€</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="images/panier_basket.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-								 							<a href="#">Ballon de basket GM7X</a>
-								 							<div class="product-info">
-									 							<div>Taille: <span class="value">7</span></div>
-									 							<div>Couleur: <span class="value">Orange</span></div>
-									 							<div>Expédié sous: <span class="value">24/48H</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="quantity">Quantity:</label>
-							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>40€</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 			</div>
-			 			</div>
-			 			<div class="col-md-12 col-lg-4">
-			 				<div class="summary">
-			 					<h3>Résumé</h3>
-			 					<div class="summary-item"><span class="text">Sous-total</span><span class="price">245€</span></div>
-			 					<div class="summary-item"><span class="text">Réduction</span><span class="price">10€</span></div>
-			 					<div class="summary-item"><span class="text">Expédition</span><span class="price">Offert</span></div>
-			 					<div class="summary-item"><span class="text">Total</span><span class="price">235€</span></div>
-			 					<button type="button" class="btn btn-primary btn-lg btn-block">Finaliser ma commande</button>
-				 			</div>
-			 			</div>
-		 			</div> 
-		 		</div>
-	 		</div>
 		</section>
-	</main>
-</body>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
- 
-  
-
-    <!--Le Footer commence ici-->
-	<footer class="footer mt-4">
-        <div class="container bottom_border">
-            <div class="row">
-                <div class=" col-sm-4 col-md col-sm-4  col-12 col">
-                    <h5 class="titre_ul">Nous contacter</h5>
-                    <!--titre_ul-->
-                    <p class="mb10">Créé en 2021 par Jérémy, Josué et Douglas, JJD Company est aujourd’hui une marque forte dans le domaine du sport en Guadeloupe.</p>
-                    <p>
-                        <i class="fa fa-location-arrow"></i>
-                        Gymnase de Point-à-Pitre 97120, Guadeloupe
-                    </p>
-                    <p>
-                        <i class="fa fa-phone"></i>
-                        +590-590862544
-                    </p>
-                    <p>
-                        <i class="fa fa fa-envelope"></i>
-                        jjd-company@gmail.com
-                    </p>
 
 
-                </div>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 
-                <div class=" col-sm-4 col-md  col-6 col">
-                    <h5 class="titre_ul">Nos prestations</h5>
-                    <!--titre_ul-->
-					<ul class="footer_ul">
-						<li>
-							<a href="/cours.html">Le Football</a>
-						</li>
-						<li>
-							<a href="/cours.html">Le Basketball</a>
-						</li>
-						<li>
-							<a href="/cours.html">La boxe</a>
-						</li>
-					</ul>
-                    <!--La liste de "Nos services" se termine ici-->
-                </div>
+		<div
+			class="container-fluid p-0">
+
+			<!--Le Footer commence ici-->
+			<footer class="footer">
+				<div class="container bottom_border">
+					<div class="row">
+						<div class=" col-sm-4 col-md col-sm-4  col-12 col">
+							<h5 class="titre_ul">Nous contacter</h5>
+							<!--titre_ul-->
+							<p class="mb10">Créé en 2021 par Jérémy, Josué et Douglas, JJD Company est aujourd’hui une marque forte dans le domaine du sport en Guadeloupe.</p>
+							<p>
+								<i class="fa fa-location-arrow"></i>
+								Gymnase de Point-à-Pitre 97120, Guadeloupe
+							</p>
+							<p>
+								<i class="fa fa-phone"></i>
+								+590-590862544
+							</p>
+							<p>
+								<i class="fa fa fa-envelope"></i>
+								jjd-company@gmail.com
+							</p>
 
 
-                <div class=" col-sm-4 col-md  col-6 col">
-                    <h5 class="titre_ul">Nos services</h5>
-                    <!--titre_ul-->
-                    <ul class="footer_ul">
-                        <li>
-                            <a href="/produits.html">La boutique en ligne</a>
-                        </li>
-                        <li>
-                            <a href="/blog.html">Les conseils des coachs</a>
-                        </li>
-                    </ul>
-                    <!--La liste de "La boutique" se termine ici-->
-                </div>
+						</div>
 
 
-                <div class=" col-sm-4 col-md  col-12 col">
-                    <h5 class="titre_ul">Mentions obligatoires</h5>
-                    <!--titre_ul se termine ici-->
-
-                    <ul class="footer_ul">
-                        <li>
-                            <a href="/mentions_legales.html">Mentions légales</a>
-                        </li>
-                        <li>
-                            <a href="/cgv.html">CGV & CGU</a>
-                        </li>
-                        <li>
-                            <a href="/politique_de_confidentialité.html">Politique de confidentialité</a>
-                        </li>
-                    </ul>
-                    <!--La liste des "Mentions obligatoires" se termine ici-->
-
-                    <!--footer_ul se termine ici-->
-                </div>
-            </div>
-        </div>
+						<div class=" col-sm-4 col-md  col-6 col">
+							<h5 class="titre_ul">Nos prestations</h5>
+							<!--titre_ul-->
+							<ul class="footer_ul">
+								<li>
+									<a href="/cours.html">Le Football</a>
+								</li>
+								<li>
+									<a href="/cours.html">Le Basketball</a>
+								</li>
+								<li>
+									<a href="/cours.html">La boxe</a>
+								</li>
+							</ul>
+							<!--La liste de "Nos services" se termine ici-->
+						</div>
 
 
-        <ul class="footer_bas">
-            <li>
-                <a href="/index.html">Accueil</a>
-            </li>
-            <li>
-                <a href="/mentions_legales.html">À propos de</a>
-            </li>
-            <li>
-                <a href="/choice.html">Services</a>
-            </li>
-            <li>
-                <a href="/produits.html">Boutique</a>
-            </li>
-            <li>
-                <a href="mailto: jjd-company@gmail.com">Contact</a>
-            </li>
-        </ul>
-        <!--footer_bas se termine ici-->
-        <p class="text-center">2021 @ Tous droits réservés | Réalisé par
-            <a href="/index.html">JJD Company Sports</a>
-        </p>
-
-        <ul class="social_footer_ul">
-            <li>
-                <a href="">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
-        <!--social_footer_ul se termine ici-->
-    </footer>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+						<div class=" col-sm-4 col-md  col-6 col">
+							<h5 class="titre_ul">Nos services</h5>
+							<!--titre_ul-->
+							<ul class="footer_ul">
+								<li>
+									<a href="/produits.html">La boutique en ligne</a>
+								</li>
+								<li>
+									<a href="/blog.html">Les conseils des coachs</a>
+								</li>
+							</ul>
+							<!--La liste de "La boutique" se termine ici-->
+						</div>
 
 
+						<div class=" col-sm-4 col-md  col-12 col">
+							<h5 class="titre_ul">Mentions obligatoires</h5>
+							<!--titre_ul se termine ici-->
 
-<script src="node_modules/sal.js/dist/sal.js"></script>
-<script>
-    sal();
-</script>
-<script src="javascript.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+							<ul class="footer_ul">
+								<li>
+									<a href="/mentions_legales.html">Mentions légales</a>
+								</li>
+								<li>
+									<a href="/cgv.html">CGV & CGU</a>
+								</li>
+								<li>
+									<a href="/politique_de_confidentialité.html">Politique de confidentialité</a>
+								</li>
+							</ul>
+							<!--La liste des "Mentions obligatoires" se termine ici-->
 
-</body>
+							<!--footer_ul se termine ici-->
+						</div>
+					</div>
+				</div>
+
+
+				<ul class="footer_bas">
+					<li>
+						<a href="/index.html">Accueil</a>
+					</li>
+					<li>
+						<a href="/mentions_legales.html">À propos de</a>
+					</li>
+					<li>
+						<a href="/choice.html">Services</a>
+					</li>
+					<li>
+						<a href="/produits.html">Boutique</a>
+					</li>
+					<li>
+						<a href="mailto:%20jjd-company@gmail.com">Contact</a>
+					</li>
+				</ul>
+				<!--footer_bas se termine ici-->
+				<p class="text-center">2021 @ Tous droits réservés | Réalisé par
+					<a href="/index.html">JJD Company Sports</a>
+				</p>
+
+				<ul class="social_footer_ul">
+					<li>
+						<a href="">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+				<!--social_footer_ul se termine ici-->
+			</footer>
+
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+		<script src="node_modules/sal.js/dist/sal.js"></script>
+		<script>
+			sal();
+		</script>
+		<script src="javascript.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+	</body>
 </html>
